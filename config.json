@@ -1,0 +1,25 @@
+{
+  "scraper_settings": {
+    "headless_mode": false,
+    "debug_mode": false,
+    "output_file": "scraped_coupons.xlsx"
+  },
+  "limits": {
+    "dealspotr_max_codes": 20,
+    "simplycodes_show_more_codes": 2,
+    "simplycodes_show_more_deals": 2
+  },
+  "retry_settings": {
+    "max_retries": 2,
+    "retry_delay_min": 3,
+    "retry_delay_max": 5
+  },
+  "delays": {
+    "between_stores_min": 3,
+    "between_stores_max": 5,
+    "between_websites_min": 5,
+    "between_websites_max": 8,
+    "after_browser_reset_min": 2,
+    "after_browser_reset_max": 4
+  }
+}
